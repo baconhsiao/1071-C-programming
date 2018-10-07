@@ -8,7 +8,7 @@ int main()
     int width;
     int type;
 
-    while(1)
+    while(choice=1)
     {
         printf("Main Menu \n");
         printf("1. Rectangle \n");
@@ -65,12 +65,12 @@ int main()
             printf("Enter height and type : ");
             scanf("%d %d",&height,&type);
             if(type==3);
-            for(int i=1;i<=height;i++){
-                for(int j=1;j<=height;j++){
-                    if(i==height || i==j || j==height)
-                        printf("*");
-                    else
-                        printf(" ");
+            for(int i=height;i>=height;i--){
+                for(int j=height;j>=1;j--){                                                 
+                    if(i==height || i==j || j==height)                                          
+                        printf("*");                                                        
+                    else                                                                    
+                        printf(" ");                                                        
                 }
                 printf("\n");
             }
