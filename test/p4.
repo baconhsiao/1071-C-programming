@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int encode(int N)
+{
+
+
+    int y;
+    int x
+    y = (x+5000)%10000
+    printf("%d",y);
+
+}
+
+
+
+int main()
+{
+    int n;
+
+    printf("Enter n (-1 to exit) : ");
+    scanf("%d",&n);
+    encode(n);
+
+}
