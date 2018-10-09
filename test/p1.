@@ -5,6 +5,7 @@ int main()
 {
     int n1,n2;
     int a,b,c,d,e;
+    int ID;
 
     printf("Enter two integers : ");
     scanf("%d %d",&n1,&n2);
@@ -20,6 +21,10 @@ int main()
     printf("%d * %d = %d\n",n1,n2,c);
     printf("%d / %d = %d\n",n1,n2,d);
     printf("%d %% %d = %d\n",n1,n2,e);
+
+
+    printf("Bye!Coding by your_ID : ");
+    scanf("%d",&ID);
 
 
 }
