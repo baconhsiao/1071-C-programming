@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int h1,h2;
+    int BMI1,BMI2;
+    float w1,w2;
+    int i;
+    int ID;
+
+    while(h1>=0 && h2>=0)
+    {
+        printf("Enter height range (-1 to exit): ");
+            scanf("%d %d",&h1,&h2);
+            for(int i=h1; i<=h2; i++)
+            {
+
+                w1 = 18.5*(i*i/10000.0);
+
+                w2 = 24.0*(i*i/10000.0);
+                printf("%d cm: %.1f ~ %.1f kg \n",i,w1,w2);
+            }
+
+    }
+    printf("Bye!Coding by your_ID : ");
+    scanf("%d",&ID);
+
+}
