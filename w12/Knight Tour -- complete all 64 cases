@@ -39,7 +39,7 @@ Pos findNextBestPos(int m[][8],int access[][8],int row,int col)
         if(nextRow>=0 && nextRow<=7 && nextCol>=0 && nextCol<=7 && access[nextRow][nextCol]>0)
         {
             access[nextRow][nextCol]--;
-            if(access[nextRow][nextCol] < min)
+            if(access[nextRow][nextCol] <= min)
             {
                 min = access[nextRow][nextCol];
                 minRow = nextRow;
